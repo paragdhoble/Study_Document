@@ -1,21 +1,21 @@
 ## TestNG Questions
 1.What are the annotations used in TestNG?
-There are three sections of Annotaions Testing
+-There are three sections of Annotaions Testing
 a.Precondition annotation 
 The TestNG annotation which are run before TestNG
 @BeforeSuite , @BeforeTest, @BeforeClass, @BeforeMethod
 
 b.Test Annotation
-This is the annotation which is only mentioned before the test case (Before the method written to execute the test case)
+-This is the annotation which is only mentioned before the test case (Before the method written to execute the test case)
 @Test
 
 c.Postcondition annotations
-These are the annotations that are executed after the test case. (After the method is written to execute the test case)
+-These are the annotations that are executed after the test case. (After the method is written to execute the test case)
 @AfterSuite, @AfterClass, @AfterTest, @AfterMethod 
 
 
 2.What is the sequence of execution of the annotations in TestNG?
-@BeforeSuite
+-@BeforeSuite
 @BeforeTest
 @BeforeClass
 @BeforeMethod
@@ -26,7 +26,7 @@ These are the annotations that are executed after the test case. (After the meth
 @AfterSuite
 
 3.How to set priorities in TestNG?
-This is used to set the priorities of the Test Cases if the priorities not set then it will execute alphabetically
+-This is used to set the priorities of the Test Cases if the priorities not set then it will execute alphabetically
 If we want to give a test method, priority higher than the default priority then we can simply assign a negative value to the priority attribute of that test method.
 Test with no priorities will execute first and have the default value 0
 EX:-
