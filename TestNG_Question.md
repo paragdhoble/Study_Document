@@ -1,6 +1,6 @@
 ## TestNG Questions
 1.What are the annotations used in TestNG?
--- There are three sections of Annotaions Testing
+There are three sections of Annotaions Testing
 a.Precondition annotation 
 The TestNG annotation which are run before TestNG
 @BeforeSuite , @BeforeTest, @BeforeClass, @BeforeMethod
