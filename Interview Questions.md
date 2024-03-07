@@ -12,17 +12,6 @@ Q: Program for
 input : aabbbccccaaaaa
 output :a7b3c4
 
-**import java.util.Scanner;
-
-   public class restAssured {
-       public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a string:");
-        String input = scanner.nextLine();
-        String compressed = compressString(input);
-        System.out.println("Compressed output: " + compressed);
-    }
-
     static String compressString(String input) {
         StringBuilder result = new StringBuilder();
         int count = 1;
@@ -43,6 +32,6 @@ output :a7b3c4
 
         return result.toString();
     }
-}**
+}
 
   
