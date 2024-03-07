@@ -27,9 +27,8 @@ EX:
 select emp , dense_rank() over ( order by salary desc) row_num from empTable where row_num = 3
 select max(salary), name  from (select distinct salary, name from emptable order by salary desc fetch first 3 row only)
 
-Q: What is WindowHand and Windowhandles and its return type ?
--
-
+Q: What is WindowHand and Windowhandles and its return type?
+- Return type of Windowhandles is SET 
 
 Q: Program to get unique words 
 
