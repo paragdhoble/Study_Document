@@ -28,7 +28,24 @@ select emp , dense_rank() over ( order by salary desc) row_num from empTable whe
 select max(salary), name  from (select distinct salary, name from emptable order by salary desc fetch first 3 row only)
 
 Q: What is WindowHand and Windowhandles and its return type?
-- Return type of Windowhandles is SET 
+- Return type of Windowhandles is SET
+
+Q: Aluure report limitations?
+
+Q:Types of Locator in selenium?
+- Types of Locator
+  - Id >> Id is the fastest locator as compare to others.
+  - Name
+  - Clas Name
+  - tagsName
+  - LinkText
+  - partialLinkTest
+  - Css Selector
+  - Xpath.
+ 
+Q: Background and Hooks , BeforeALL
+-
+
 
 Q: Program to get unique words 
 
