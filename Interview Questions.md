@@ -44,7 +44,19 @@ Q:Types of Locator in selenium?
   - Xpath.
  
 Q: Background and Hooks , BeforeALL
--
+-  Background is used to run common steps before all the all Scenarios within a Feature File.
+-  Hooks : Hooks is a block of code that run before and after each Scenarios.We can define anywhere in the project using @Before & @After.
+-  
+
+Q: Implementation of Test runner file 
+- @RunWith(Cucumber.class)
+  @CucumberOptions(
+   features = "Feature"
+   ,glue={"stepDefinition"}
+  ,tags={"@SmokeTest"}
+   ,strict = true
+   ,dryRun = true
+)
 
 
 Q: Program to get unique words 
