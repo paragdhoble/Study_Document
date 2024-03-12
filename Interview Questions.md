@@ -58,6 +58,13 @@ Q: Implementation of Test runner file
    ,dryRun = true
 )
 
+Q: difference between driver.get and Navigate 
+- get is part of WebDriver interface where navigate is part of Navigation interface.
+- get doesn't have the store the history where navigate store the history and can go foward and backword.
+-  driver.navigate().forward(); / driver.navigate().back();
+
+Q: WAP to google and search the result and validate it.
+- 
 
 Q: Program to get unique words 
 
